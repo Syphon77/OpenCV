@@ -1,0 +1,7 @@
+import cv2
+
+img = cv2.imread('C:\Users\Sypho\OneDrive\Documents\OpenCV tutorial\assets\WIN_20231121_11_21_57_Pro.jpg', 1)
+
+cv2.imshow('Image', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
